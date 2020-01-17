@@ -38,7 +38,7 @@
   "devDependencies": {
     "@types/graphql": "14.2.3",
     "@types/node": "12.12.24",
-    "ava": "2.4.0",
+    "ava": "^3.0.0-beta.2",
     "graphql": "14.5.8",
     "rimraf": "3.0.0",
     "ts-node": "8.6.2",
@@ -47,7 +47,12 @@
     "typescript": "3.7.4"
   },
   "dependencies": {
-    "@graphback/core": "0.10.2"
+    "@graphback/core": "0.10.2",
+    "@graphql-toolkit/common": "^0.9.1",
+    "@graphql-toolkit/core": "^0.9.1",
+    "@graphql-toolkit/schema-merging": "^0.9.1",
+    "graphql-metadata": "0.5.0",
+    "pluralize": "^8.0.0"
   },
   "peerDependencies": {
     "graphql": "^0.12.0 || ^0.13.0 || ^14.0.0"
